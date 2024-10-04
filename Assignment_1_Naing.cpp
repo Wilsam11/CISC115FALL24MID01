@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     //  variables
-    int age = 12;
+    int age = 21;
     float height = 5.8;
     char grade = 'B';
     string Fullname = "Myo Set Naing";
