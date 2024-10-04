@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     //  variables
-    int age = 21;
+    int age = 11;
     float height = 5.8;
     char grade = 'B';
     string Fullname = "Myo Set Naing";
@@ -12,11 +12,12 @@ int main() {
     age = age + 10;
     
     // Output the results
-    cout << "Fullname: " << Fullname << endl;
+    cout << "My name is : " << Fullname << endl;
+    cout << "This is my first basic program in C++" << endl;
     cout << "Age: " << age << endl;
     cout << "Height: " << height << endl;
-    cout << "Grade: " << grade << endl;
-    
+    cout << "I want Grade in CISC115: " << grade << endl;
+
     // Implicit conversion
     float newAge = age;
     cout << "New Age as float: " << newAge << endl;
