@@ -5,7 +5,7 @@ int main() {
     //  variables
     int age = 11;
     float height = 5.8;
-    char grade = 'B';
+    char grade = 'A';
     string Fullname = "Myo Set Naing";
     
     //  a basic operation
