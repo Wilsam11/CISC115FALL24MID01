@@ -9,13 +9,13 @@ int main() {
     string authorName = "Harper Lee";            // Predefined author
     double bookPrice = 14.99;                    // Predefined price
 
-    // Display predefined book details
+    //  predefined book details
     cout << "----- Predefined Book Details -----" << endl;
     cout << setw(15) << left << "Title:" << bookTitle << endl;
     cout << setw(15) << left << "Author:" << authorName << endl;
     cout << setw(15) << left << "Price: $" << fixed << setprecision(2) << bookPrice << endl;
 
-    // Collecting new book information from the user
+    // new book information from the user
     cout << "\nNow, enter your book information:" << endl;
 
     cout << "Enter book title: ";
